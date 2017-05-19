@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4925819B1EC95C0500330F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4925819A1EC95C0500330F1A /* main.m */; };
+		4925819E1EC95C0500330F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4925819D1EC95C0500330F1A /* AppDelegate.m */; };
+		492581A11EC95C0500330F1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492581A01EC95C0500330F1A /* ViewController.m */; };
+		492581A41EC95C0500330F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492581A21EC95C0500330F1A /* Main.storyboard */; };
+		492581A61EC95C0500330F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492581A51EC95C0500330F1A /* Assets.xcassets */; };
+		492581A91EC95C0500330F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492581A71EC95C0500330F1A /* LaunchScreen.storyboard */; };
+		492581B21EC966A500330F1A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492581B11EC966A500330F1A /* JavaScriptCore.framework */; };
+		49F50FAF1EC9696C00E763B4 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 49F50FAE1EC9696C00E763B4 /* test.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		492581961EC95C0500330F1A /* js交互5_15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "js交互5_15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925819A1EC95C0500330F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4925819C1EC95C0500330F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4925819D1EC95C0500330F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4925819F1EC95C0500330F1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		492581A01EC95C0500330F1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		492581A31EC95C0500330F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492581A51EC95C0500330F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492581A81EC95C0500330F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492581AA1EC95C0500330F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492581B11EC966A500330F1A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		49F50FAE1EC9696C00E763B4 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492581931EC95C0500330F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492581B21EC966A500330F1A /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4925818D1EC95C0500330F1A = {
+			isa = PBXGroup;
+			children = (
+				492581981EC95C0500330F1A /* js交互5_15 */,
+				492581971EC95C0500330F1A /* Products */,
+				492581B01EC966A500330F1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		492581971EC95C0500330F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492581961EC95C0500330F1A /* js交互5_15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492581981EC95C0500330F1A /* js交互5_15 */ = {
+			isa = PBXGroup;
+			children = (
+				4925819C1EC95C0500330F1A /* AppDelegate.h */,
+				4925819D1EC95C0500330F1A /* AppDelegate.m */,
+				4925819F1EC95C0500330F1A /* ViewController.h */,
+				492581A01EC95C0500330F1A /* ViewController.m */,
+				492581A21EC95C0500330F1A /* Main.storyboard */,
+				492581A51EC95C0500330F1A /* Assets.xcassets */,
+				49F50FAE1EC9696C00E763B4 /* test.html */,
+				492581A71EC95C0500330F1A /* LaunchScreen.storyboard */,
+				492581AA1EC95C0500330F1A /* Info.plist */,
+				492581991EC95C0500330F1A /* Supporting Files */,
+			);
+			path = "js交互5_15";
+			sourceTree = "<group>";
+		};
+		492581991EC95C0500330F1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4925819A1EC95C0500330F1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		492581B01EC966A500330F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492581B11EC966A500330F1A /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492581951EC95C0500330F1A /* js交互5_15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492581AD1EC95C0500330F1A /* Build configuration list for PBXNativeTarget "js交互5_15" */;
+			buildPhases = (
+				492581921EC95C0500330F1A /* Sources */,
+				492581931EC95C0500330F1A /* Frameworks */,
+				492581941EC95C0500330F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "js交互5_15";
+			productName = "js交互5_15";
+			productReference = 492581961EC95C0500330F1A /* js交互5_15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4925818E1EC95C0500330F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = shanqizhi;
+				TargetAttributes = {
+					492581951EC95C0500330F1A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C86DUE272E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 492581911EC95C0500330F1A /* Build configuration list for PBXProject "js交互5_15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4925818D1EC95C0500330F1A;
+			productRefGroup = 492581971EC95C0500330F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492581951EC95C0500330F1A /* js交互5_15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492581941EC95C0500330F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F50FAF1EC9696C00E763B4 /* test.html in Resources */,
+				492581A91EC95C0500330F1A /* LaunchScreen.storyboard in Resources */,
+				492581A61EC95C0500330F1A /* Assets.xcassets in Resources */,
+				492581A41EC95C0500330F1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492581921EC95C0500330F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492581A11EC95C0500330F1A /* ViewController.m in Sources */,
+				4925819E1EC95C0500330F1A /* AppDelegate.m in Sources */,
+				4925819B1EC95C0500330F1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		492581A21EC95C0500330F1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492581A31EC95C0500330F1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492581A71EC95C0500330F1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492581A81EC95C0500330F1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492581AB1EC95C0500330F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		492581AC1EC95C0500330F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492581AE1EC95C0500330F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C86DUE272E;
+				INFOPLIST_FILE = "js交互5_15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faqiang.feng.js--5-15";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		492581AF1EC95C0500330F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C86DUE272E;
+				INFOPLIST_FILE = "js交互5_15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faqiang.feng.js--5-15";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492581911EC95C0500330F1A /* Build configuration list for PBXProject "js交互5_15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492581AB1EC95C0500330F1A /* Debug */,
+				492581AC1EC95C0500330F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492581AD1EC95C0500330F1A /* Build configuration list for PBXNativeTarget "js交互5_15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492581AE1EC95C0500330F1A /* Debug */,
+				492581AF1EC95C0500330F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4925818E1EC95C0500330F1A /* Project object */;
+}
